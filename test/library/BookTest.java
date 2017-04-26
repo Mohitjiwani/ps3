@@ -23,6 +23,8 @@ public class BookTest {
     public void testExampleTest() {
         Book book = new Book("This Test Is Just An Example", Arrays.asList("You Should", "Replace It", "With Your Own Tests"), 1990);
         assertEquals("This Test Is Just An Example", book.getTitle());
+        assertEquals(3, book.getAuthors().size());
+        assertEquals(1990, book.getYear());
     }
     
     @Test(expected=AssertionError.class)
