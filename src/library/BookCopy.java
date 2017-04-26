@@ -6,9 +6,10 @@ package library;
  */
 public class BookCopy {
 
-    // TODO: rep
+    Book book;
     
-    // TODO: rep invariant
+    // rep invariant:
+    // same rep invarients as applicable on books. 
     // TODO: abstraction function
     // TODO: safety from rep exposure argument
     
