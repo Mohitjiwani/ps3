@@ -92,20 +92,34 @@ public class Book {
      *    authors, and publication year
      */
     public String toString() {
-        throw new RuntimeException("not implemented yet");
+        
+        return "(" + this.title + " " + this.authors.toString() + " " +this.year + ")";
+        //throw new RuntimeException("not implemented yet");
     }
 
-    // uncomment the following methods if you need to implement equals and hashCode,
-    // or delete them if you don't
-    // @Override
-    // public boolean equals(Object that) {
-    //     throw new RuntimeException("not implemented yet");
-    // }
-    // 
-    // @Override
-    // public int hashCode() {
-    //     throw new RuntimeException("not implemented yet");
-    // }
+    @Override
+    public boolean equals(Object that) {
+        
+        if(!(that instanceof Book)){
+            return false;
+        }
+        Book thats = (Book) that;
+        return thats.title == this.title;
+        
+        //throw new RuntimeException("not implemented yet");
+    }
+    
+    @Override
+    public int hashCode() {
+        
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + this.title.hashCode();
+        result = prime * result + this.authors.hashCode();
+        return result;
+
+        
+    }
 
 
 
