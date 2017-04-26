@@ -11,10 +11,23 @@ import java.util.List;
 public class Book {
 
     // TODO: rep
+    private final String title;
+    private final List<String> authors;
+    private final int year;
     
-    // TODO: rep invariant
-    // TODO: abstraction function
-    // TODO: safety from rep exposure argument
+    // rep invariant :
+    // Title must contain at least one non-space character
+    // authors name is case - sensitive
+    // Year belongs to Common Era calendar
+    
+    // abstraction function:
+    // Given a title,author list,publication year
+    // creates Book object 
+    
+    // safety from rep exposure argument:
+    // all fields are private.
+    // title and year are immutable
+    // For list to be immutable, will make defensive copies while returning
     
     /**
      * Make a Book.
@@ -24,33 +37,54 @@ public class Book {
      * @param year Year when this edition was published in the conventional (Common Era) calendar.  Must be nonnegative. 
      */
     public Book(String title, List<String> authors, int year) {
-        throw new RuntimeException("not implemented yet");
+        
+        this.title = title;
+        this.year = year;
+        this.authors = authors;
+        
+        checkRep();
+        //throw new RuntimeException("not implemented yet");
     }
     
     // assert the rep invariant
     private void checkRep() {
-        throw new RuntimeException("not implemented yet");
+        
+        //title contains atleast one non-space character
+        assert this.title.contentEquals("\\s+") == false;
+        
+        //list<authors> must have atleast one name
+        assert this.authors.size() > 0;
+        
+        //Year belongs to conventional calender
+        assert this.year > 0;
+        //throw new RuntimeException("not implemented yet");
     }
     
     /**
      * @return the title of this book
      */
     public String getTitle() {
-        throw new RuntimeException("not implemented yet");
+        
+        return this.title;
+        //throw new RuntimeException("not implemented yet");
     }
-    
+        
     /**
      * @return the authors of this book
      */
     public List<String> getAuthors() {
-        throw new RuntimeException("not implemented yet");
+        
+        return this.authors;
+        //throw new RuntimeException("not implemented yet");
     }
 
     /**
      * @return the year that this book was published
      */
     public int getYear() {
-        throw new RuntimeException("not implemented yet");
+        
+        return this.year;
+       // throw new RuntimeException("not implemented yet");
     }
 
     /**
