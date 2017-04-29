@@ -2,6 +2,7 @@ package library;
 
 import java.util.List;
 
+
 /**
  * Book is an immutable type representing an edition of a book -- not the physical object, 
  * but the combination of words and pictures that make up a book.  Each book is uniquely
@@ -74,7 +75,10 @@ public class Book {
      */
     public List<String> getAuthors() {
         
-        return this.authors;
+        //make a defensive copy because authors is mutable data type
+        List<String> list_of_authors = this.authors;
+        
+        return list_of_authors;
         //throw new RuntimeException("not implemented yet");
     }
 
@@ -112,13 +116,8 @@ public class Book {
     @Override
     public int hashCode() {
         
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + this.title.hashCode();
-        result = prime * result + this.authors.hashCode();
-        return result;
-
         
+        return   this.title.hashCode();
     }
 
 
