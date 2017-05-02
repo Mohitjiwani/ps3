@@ -14,11 +14,19 @@ public class BookTest {
      * Testing strategy
      * ==================
      * 
-     * TODO: your testing strategy for this ADT should go here.
-     * Make sure you have partitions.
+     * 1.Test hashCode() and Equals()
+     * 
      */
     
     // TODO: put JUnit @Test methods here that you developed from your testing strategy
+    @Test
+    public void testhash_equalTest(){
+        Book book1 = new Book("thinking", Arrays.asList("daniel", "rob"), 1990);
+        Book book2 = new Book("Thinking", Arrays.asList("Daniel", "Rob"), 1990);
+        assertEquals(true, book1.equals(book2));
+        assertEquals(book1.hashCode(), book2.hashCode());
+    }
+    
     @Test
     public void testExampleTest() {
         Book book = new Book("This Test Is Just An Example", Arrays.asList("You Should", "Replace It", "With Your Own Tests"), 1990);

@@ -69,7 +69,8 @@ public class Book {
         return this.title;
         //throw new RuntimeException("not implemented yet");
     }
-        
+    
+       
     /**
      * @return the authors of this book
      */
@@ -81,6 +82,8 @@ public class Book {
         return list_of_authors;
         //throw new RuntimeException("not implemented yet");
     }
+    
+    
 
     /**
      * @return the year that this book was published
@@ -90,6 +93,7 @@ public class Book {
         return this.year;
        // throw new RuntimeException("not implemented yet");
     }
+    
 
     /**
      * @return human-readable representation of this book that includes its title,
@@ -108,7 +112,8 @@ public class Book {
             return false;
         }
         Book thats = (Book) that;
-        return thats.title == this.title;
+        return thats.title.toUpperCase().equals(this.title.toUpperCase()) && 
+                thats.year == this.year;
         
         //throw new RuntimeException("not implemented yet");
     }
@@ -116,8 +121,7 @@ public class Book {
     @Override
     public int hashCode() {
         
-        
-        return   this.title.hashCode();
+        return   this.title.toLowerCase().hashCode() + year;
     }
 
 
