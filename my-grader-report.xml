@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="mohit-PC" id="0" name="BigLibraryTest" package="library" skipped="0" tests="2" time="0.153" timestamp="2017-05-01T10:18:35">
+  <testsuite errors="0" failures="0" hostname="mohit-PC" id="0" name="BigLibraryTest" package="library" skipped="0" tests="2" time="0.221" timestamp="2017-05-02T18:10:56">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -98,7 +98,7 @@
 
           <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BigLibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.BigLibraryTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher5785282508086322941.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit741254543835452489.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BigLibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.BigLibraryTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher7147949274388072300.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit2237249607097911299.properties" />
 
           <property name="java.class.path" value="C:\Users\mohit\Desktop\Java_ps\ps3\lib\junit-4.12.jar;C:\Users\mohit\Desktop\Java_ps\ps3\lib\hamcrest-core-1.3.jar;C:\Users\mohit\Desktop\Java_ps\ps3\.grader\bin-student;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -154,20 +154,14 @@
 
       <testcase classname="library.BigLibraryTest" name="testAssertionsEnabled" time="0.002" />
 
-      <testcase classname="library.BigLibraryTest" name="testExampleTest" time="0.009">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at library.BigLibraryTest.testExampleTest(BigLibraryTest.java:31)
-</error>
-
-      </testcase>
+      <testcase classname="library.BigLibraryTest" name="testExampleTest" time="0.004" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="mohit-PC" id="1" name="BookCopyTest" package="library" skipped="0" tests="2" time="0.139" timestamp="2017-05-01T10:18:35">
+  <testsuite errors="0" failures="0" hostname="mohit-PC" id="1" name="BookCopyTest" package="library" skipped="0" tests="2" time="0.164" timestamp="2017-05-02T18:10:57">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -265,7 +259,7 @@
 
           <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BookCopyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.BookCopyTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher2620952847185723091.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit7917491656988569144.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BookCopyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.BookCopyTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher6904728272951952827.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit7758813310266083797.properties" />
 
           <property name="java.class.path" value="C:\Users\mohit\Desktop\Java_ps\ps3\lib\junit-4.12.jar;C:\Users\mohit\Desktop\Java_ps\ps3\lib\hamcrest-core-1.3.jar;C:\Users\mohit\Desktop\Java_ps\ps3\.grader\bin-student;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -321,14 +315,14 @@
 
       <testcase classname="library.BookCopyTest" name="testAssertionsEnabled" time="0.002" />
 
-      <testcase classname="library.BookCopyTest" name="testExampleTest" time="0.003" />
+      <testcase classname="library.BookCopyTest" name="testExampleTest" time="0.004" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="mohit-PC" id="2" name="BookTest" package="library" skipped="0" tests="3" time="0.16" timestamp="2017-05-01T10:18:36">
+  <testsuite errors="0" failures="0" hostname="mohit-PC" id="2" name="BookTest" package="library" skipped="0" tests="3" time="0.144" timestamp="2017-05-02T18:10:58">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -426,7 +420,7 @@
 
           <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BookTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.BookTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher5652249073143167617.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit1633240115415375577.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.BookTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.BookTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher567051604365119540.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit363483275724053294.properties" />
 
           <property name="java.class.path" value="C:\Users\mohit\Desktop\Java_ps\ps3\lib\junit-4.12.jar;C:\Users\mohit\Desktop\Java_ps\ps3\lib\hamcrest-core-1.3.jar;C:\Users\mohit\Desktop\Java_ps\ps3\.grader\bin-student;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -482,7 +476,7 @@
 
       <testcase classname="library.BookTest" name="testhash_equalTest" time="0.003" />
 
-      <testcase classname="library.BookTest" name="testAssertionsEnabled" time="0.001" />
+      <testcase classname="library.BookTest" name="testAssertionsEnabled" time="0.0" />
 
       <testcase classname="library.BookTest" name="testExampleTest" time="0.0" />
 
@@ -491,7 +485,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="2" failures="0" hostname="mohit-PC" id="3" name="LibraryTest" package="library" skipped="0" tests="4" time="0.163" timestamp="2017-05-01T10:18:37">
+  <testsuite errors="0" failures="0" hostname="mohit-PC" id="3" name="LibraryTest" package="library" skipped="0" tests="4" time="0.155" timestamp="2017-05-02T18:10:58">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -589,7 +583,7 @@
 
           <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.LibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.LibraryTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher3661005520249207443.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit8423825034088920742.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.LibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.LibraryTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher6839802638214526925.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit6318101725986671440.properties" />
 
           <property name="java.class.path" value="C:\Users\mohit\Desktop\Java_ps\ps3\lib\junit-4.12.jar;C:\Users\mohit\Desktop\Java_ps\ps3\lib\hamcrest-core-1.3.jar;C:\Users\mohit\Desktop\Java_ps\ps3\.grader\bin-student;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -643,38 +637,20 @@
 
       </properties>
 
-      <testcase classname="library.LibraryTest" name="testAssertionsEnabled[library.SmallLibrary]" time="0.002" />
+      <testcase classname="library.LibraryTest" name="testAssertionsEnabled[library.SmallLibrary]" time="0.001" />
 
-      <testcase classname="library.LibraryTest" name="testExampleTest[library.SmallLibrary]" time="0.017">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.LibraryTest.makeLibrary(LibraryTest.java:54)
-	at library.LibraryTest.testExampleTest(LibraryTest.java:76)
-</error>
+      <testcase classname="library.LibraryTest" name="testExampleTest[library.SmallLibrary]" time="0.014" />
 
-      </testcase>
+      <testcase classname="library.LibraryTest" name="testAssertionsEnabled[library.BigLibrary]" time="0.001" />
 
-      <testcase classname="library.LibraryTest" name="testAssertionsEnabled[library.BigLibrary]" time="0.0" />
-
-      <testcase classname="library.LibraryTest" name="testExampleTest[library.BigLibrary]" time="0.002">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.LibraryTest.makeLibrary(LibraryTest.java:54)
-	at library.LibraryTest.testExampleTest(LibraryTest.java:76)
-</error>
-
-      </testcase>
+      <testcase classname="library.LibraryTest" name="testExampleTest[library.BigLibrary]" time="0.002" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="mohit-PC" id="4" name="BookCopyTest" package="library.beta" skipped="0" tests="4" time="0.148" timestamp="2017-05-01T10:18:37">
+  <testsuite errors="0" failures="1" hostname="mohit-PC" id="4" name="BookCopyTest" package="library.beta" skipped="0" tests="4" time="0.154" timestamp="2017-05-02T18:10:59">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -772,7 +748,7 @@
 
           <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.BookCopyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.beta.BookCopyTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher430089803900708328.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit8961108242904888475.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.BookCopyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.beta.BookCopyTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher2815457959738663310.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit5588804461046458920.properties" />
 
           <property name="java.class.path" value="C:\Users\mohit\Desktop\Java_ps\ps3\lib\junit-4.12.jar;C:\Users\mohit\Desktop\Java_ps\ps3\lib\hamcrest-core-1.3.jar;C:\Users\mohit\Desktop\Java_ps\ps3\.grader\bin-student;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -826,25 +802,25 @@
 
       </properties>
 
-      <testcase classname="library.beta.BookCopyTest" name="testEqualsHashcode" time="0.005" />
+      <testcase classname="library.beta.BookCopyTest" name="testEqualsHashcode" time="0.006" />
 
-      <testcase classname="library.beta.BookCopyTest" name="testGetBook" time="0.008">
+      <testcase classname="library.beta.BookCopyTest" name="testGetBook" time="0.01">
           <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
 	at library.beta.BookCopyTest.testGetBook(BookCopyTest.java:34)
 </failure>
 
       </testcase>
 
-      <testcase classname="library.beta.BookCopyTest" name="testAssertionsEnabled" time="0.001" />
+      <testcase classname="library.beta.BookCopyTest" name="testAssertionsEnabled" time="0.0" />
 
-      <testcase classname="library.beta.BookCopyTest" name="testCondition" time="0.001" />
+      <testcase classname="library.beta.BookCopyTest" name="testCondition" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="mohit-PC" id="5" name="BookTest" package="library.beta" skipped="0" tests="4" time="0.147" timestamp="2017-05-01T10:18:38">
+  <testsuite errors="0" failures="1" hostname="mohit-PC" id="5" name="BookTest" package="library.beta" skipped="0" tests="4" time="0.168" timestamp="2017-05-02T18:10:59">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -942,7 +918,7 @@
 
           <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.BookTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.beta.BookTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher3582243355379879640.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit6358767161522463186.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.BookTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.beta.BookTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher705046092796614538.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit1546596911978534554.properties" />
 
           <property name="java.class.path" value="C:\Users\mohit\Desktop\Java_ps\ps3\lib\junit-4.12.jar;C:\Users\mohit\Desktop\Java_ps\ps3\lib\hamcrest-core-1.3.jar;C:\Users\mohit\Desktop\Java_ps\ps3\.grader\bin-student;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -1007,14 +983,14 @@
 
       <testcase classname="library.beta.BookTest" name="testAssertionsEnabled" time="0.0" />
 
-      <testcase classname="library.beta.BookTest" name="testMinimalBook" time="0.001" />
+      <testcase classname="library.beta.BookTest" name="testMinimalBook" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="14" failures="0" hostname="mohit-PC" id="6" name="LibraryTest" package="library.beta" skipped="0" tests="16" time="0.209" timestamp="2017-05-01T10:18:39">
+  <testsuite errors="0" failures="4" hostname="mohit-PC" id="6" name="LibraryTest" package="library.beta" skipped="0" tests="16" time="0.232" timestamp="2017-05-02T18:11:00">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -1112,7 +1088,7 @@
 
           <property name="beta.grader.jar" value="ps3-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.LibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.beta.LibraryTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher2620328469086298673.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit5311850918456961251.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.beta.LibraryTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mohit\Desktop\Java_ps\ps3\.grader\TEST-library.beta.LibraryTest.xml crashfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junitvmwatcher2116504662299880953.properties propsfile=C:\Users\mohit\Desktop\Java_ps\ps3\.grader\junit1716157731454064054.properties" />
 
           <property name="java.class.path" value="C:\Users\mohit\Desktop\Java_ps\ps3\lib\junit-4.12.jar;C:\Users\mohit\Desktop\Java_ps\ps3\lib\hamcrest-core-1.3.jar;C:\Users\mohit\Desktop\Java_ps\ps3\.grader\bin-student;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\mohit\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
@@ -1166,163 +1142,57 @@
 
       </properties>
 
-      <testcase classname="library.beta.LibraryTest" name="testBuy[library.SmallLibrary]" time="0.02">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testBuy(LibraryTest.java:96)
-</error>
+      <testcase classname="library.beta.LibraryTest" name="testBuy[library.SmallLibrary]" time="0.012" />
+
+      <testcase classname="library.beta.LibraryTest" name="testFind[library.SmallLibrary]" time="0.012">
+          <failure message="expected:&lt;2&gt; but was:&lt;3&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;2&gt; but was:&lt;3&gt;
+	at library.beta.LibraryTest.testFind(LibraryTest.java:207)
+</failure>
 
       </testcase>
 
-      <testcase classname="library.beta.LibraryTest" name="testFind[library.SmallLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testFind(LibraryTest.java:190)
-</error>
+      <testcase classname="library.beta.LibraryTest" name="testLose[library.SmallLibrary]" time="0.001">
+          <failure message="expected:&lt;[(goodMidshipman Hornblower [C.S. Forester] 1950)]&gt; but was:&lt;[(goodMidshipman Hornblower [C.S. Forester] 1950), (lostMidshipman Hornblower [C.S. Forester] 1950)]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[(goodMidshipman Hornblower [C.S. Forester] 1950)]&gt; but was:&lt;[(goodMidshipman Hornblower [C.S. Forester] 1950), (lostMidshipman Hornblower [C.S. Forester] 1950)]&gt;
+	at library.beta.LibraryTest.testLose(LibraryTest.java:231)
+</failure>
 
       </testcase>
 
-      <testcase classname="library.beta.LibraryTest" name="testLose[library.SmallLibrary]" time="0.002">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testLose(LibraryTest.java:222)
-</error>
+      <testcase classname="library.beta.LibraryTest" name="testAllCopiesAvailableCopies[library.SmallLibrary]" time="0.0" />
 
-      </testcase>
-
-      <testcase classname="library.beta.LibraryTest" name="testAllCopiesAvailableCopies[library.SmallLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testAllCopiesAvailableCopies(LibraryTest.java:156)
-</error>
-
-      </testcase>
-
-      <testcase classname="library.beta.LibraryTest" name="testEqualsHashcode[library.SmallLibrary]" time="0.002">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testEqualsHashcode(LibraryTest.java:241)
-</error>
-
-      </testcase>
+      <testcase classname="library.beta.LibraryTest" name="testEqualsHashcode[library.SmallLibrary]" time="0.0" />
 
       <testcase classname="library.beta.LibraryTest" name="testAssertionsEnabled[library.SmallLibrary]" time="0.0" />
 
-      <testcase classname="library.beta.LibraryTest" name="testIsAvailable[library.SmallLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testIsAvailable(LibraryTest.java:135)
-</error>
+      <testcase classname="library.beta.LibraryTest" name="testIsAvailable[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testCheckinCheckout[library.SmallLibrary]" time="0.0" />
+
+      <testcase classname="library.beta.LibraryTest" name="testBuy[library.BigLibrary]" time="0.001" />
+
+      <testcase classname="library.beta.LibraryTest" name="testFind[library.BigLibrary]" time="0.043">
+          <failure message="expected:&lt;2&gt; but was:&lt;3&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;2&gt; but was:&lt;3&gt;
+	at library.beta.LibraryTest.testFind(LibraryTest.java:207)
+</failure>
 
       </testcase>
 
-      <testcase classname="library.beta.LibraryTest" name="testCheckinCheckout[library.SmallLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.SmallLibrary.&lt;init&gt;(SmallLibrary.java:32)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testCheckinCheckout(LibraryTest.java:113)
-</error>
+      <testcase classname="library.beta.LibraryTest" name="testLose[library.BigLibrary]" time="0.002">
+          <failure message="expected:&lt;[(goodMidshipman Hornblower [C.S. Forester] 1950)]&gt; but was:&lt;[(lostMidshipman Hornblower [C.S. Forester] 1950), (goodMidshipman Hornblower [C.S. Forester] 1950)]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[(goodMidshipman Hornblower [C.S. Forester] 1950)]&gt; but was:&lt;[(lostMidshipman Hornblower [C.S. Forester] 1950), (goodMidshipman Hornblower [C.S. Forester] 1950)]&gt;
+	at library.beta.LibraryTest.testLose(LibraryTest.java:231)
+</failure>
 
       </testcase>
 
-      <testcase classname="library.beta.LibraryTest" name="testBuy[library.BigLibrary]" time="0.002">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testBuy(LibraryTest.java:96)
-</error>
+      <testcase classname="library.beta.LibraryTest" name="testAllCopiesAvailableCopies[library.BigLibrary]" time="0.0" />
 
-      </testcase>
-
-      <testcase classname="library.beta.LibraryTest" name="testFind[library.BigLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testFind(LibraryTest.java:190)
-</error>
-
-      </testcase>
-
-      <testcase classname="library.beta.LibraryTest" name="testLose[library.BigLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testLose(LibraryTest.java:222)
-</error>
-
-      </testcase>
-
-      <testcase classname="library.beta.LibraryTest" name="testAllCopiesAvailableCopies[library.BigLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testAllCopiesAvailableCopies(LibraryTest.java:156)
-</error>
-
-      </testcase>
-
-      <testcase classname="library.beta.LibraryTest" name="testEqualsHashcode[library.BigLibrary]" time="0.002">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testEqualsHashcode(LibraryTest.java:241)
-</error>
-
-      </testcase>
+      <testcase classname="library.beta.LibraryTest" name="testEqualsHashcode[library.BigLibrary]" time="0.0" />
 
       <testcase classname="library.beta.LibraryTest" name="testAssertionsEnabled[library.BigLibrary]" time="0.0" />
 
-      <testcase classname="library.beta.LibraryTest" name="testIsAvailable[library.BigLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testIsAvailable(LibraryTest.java:135)
-</error>
+      <testcase classname="library.beta.LibraryTest" name="testIsAvailable[library.BigLibrary]" time="0.001" />
 
-      </testcase>
-
-      <testcase classname="library.beta.LibraryTest" name="testCheckinCheckout[library.BigLibrary]" time="0.001">
-          <error message="not implemented yet" type="java.lang.RuntimeException">java.lang.RuntimeException: not implemented yet
-	at library.BigLibrary.&lt;init&gt;(BigLibrary.java:22)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at library.beta.LibraryTest.makeLibrary(LibraryTest.java:57)
-	at library.beta.LibraryTest.testCheckinCheckout(LibraryTest.java:113)
-</error>
-
-      </testcase>
+      <testcase classname="library.beta.LibraryTest" name="testCheckinCheckout[library.BigLibrary]" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
